@@ -43,4 +43,4 @@ script "install_plugins" do
   EOH
 end
 
-
+include_recipe "elasticsearch::ebs"

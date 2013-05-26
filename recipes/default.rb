@@ -9,6 +9,8 @@
   end
 end
 
+include_recipe "elasticsearch::ebs"
+
 # Configration
 template "elasticsearch.yml" do
   path   "#{node.elasticsearch[:path][:conf]}/elasticsearch.yml"

@@ -42,5 +42,3 @@ script "install_plugins" do
     bin/plugin -install elasticsearch/elasticsearch-analysis-kuromoji/1.1.0
   EOH
 end
-
-include_recipe "elasticsearch::ebs"
